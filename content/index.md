@@ -5,7 +5,7 @@ Make markdown files in the content directory to make pages.
 
 Run
 
-```bash 
+```
 sudo apt install make && make install
 ```
 
@@ -13,8 +13,16 @@ to install dependencies.
 
 Run
 
-```bash 
+```
 make
 ```
 
-to start the web server and generator
+To run generator and web server
+
+Run
+
+```
+make prod
+```
+
+to run production web server **Note: doesn't automatically update HTML files on .md file change**
